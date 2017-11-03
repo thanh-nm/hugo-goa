@@ -18,12 +18,12 @@ a:link
     text-decoration: none;
 
     color: #526d7a;
+    /*color: #0f3678;*/
 }
 body
 {
     font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 16px;
 
     width: auto;
     height: 100%;
@@ -67,16 +67,16 @@ html
 }
 .content
 {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 div.content
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 300;
 
-    color: #777;
+    color: #222;
 }
 .copyright
 {
@@ -126,23 +126,27 @@ div.content
 .header
 {
     margin-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .headshot
 {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
+
 }
 .info
 {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 .intro
 {
     font-family: 'Roboto Slab', serif;
-    font-weight: 200;
+    font-weight: 100;
+    line-height: 130%;
     color: #777;
+
+    margin-bottom: 15px
 }
 h3.intro
 {
@@ -151,7 +155,6 @@ h3.intro
 .list
 {
     font-family: 'Roboto', sans-serif;
-
     margin-top: 50px;
 }
 .list li
@@ -178,11 +181,13 @@ h3.intro
 }
 .menu
 {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .menu-item
 {
+    margin-left: 20px;
+
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -191,13 +196,23 @@ h3.intro
 
     color: #966 !important;
 }
+.menu-nav-item
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+
+  text-decoration: none;
+
+  color: #526d7a !important;
+}
 .meta
 {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    font-weight: 200;
+    font-weight: 300;
 
-    color: #bbb;
+    color: #888;
 }
 a.meta
 {
@@ -207,12 +222,12 @@ h6.meta
 {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    font-weight: 200;
+    font-weight: 300;
 
-    color: #bbb;
+    color: #888;
 }
 section.meta {
-    margin-top: 
+    margin-top:
 }
 .powered
 {

@@ -1,11 +1,11 @@
 {{ partial "header.html" . }}
 
+{{ partial "main_menu.html" . }}
+
 {{ partial "avatar.html" . }}
 
-{{ partial "info.html" . }}
-
-{{ partial "social.html" . }}
-
-{{ partial "main_menu.html" . }}
+{{range where .Data.Pages "Type" "about"}}
+  {{ template "partials/content_no_header.html" . }}
+{{ end }}
 
 {{ partial "footer.html" . }}
